@@ -1,14 +1,14 @@
 ## TODOS
 
-- [ ] Editor element types
-- [ ] Editor
-- [ ] Editor State
-- [ ] Editor History State
-  - [ ] init state
-- [ ] Handle actions on elements
-  - [ ] ADD element
-  - [ ] Update
-  - [ ] delete
+- [x] Editor element types
+- [x] Editor Type
+- [x] Editor State
+- [x] Editor History State
+  - [x] init state
+- [x] Handle actions on elements
+  - [x] ADD element
+  - [x] Update
+  - [x] delete
 
 ## Wrap up as a CONTEXT
 
