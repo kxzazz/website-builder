@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "pnpm lint --fix",
+    "format:check": "pnpx prettier '**/*.{cjs,mjs,ts,tsx,json}' --ignore-path ./.gitignore --ignore-unknown --check",
+    "format": "pnpx prettier '**/*.{cjs,mjs,ts,tsx,json}' --ignore-unknown ./.gitignore --write"
   },
   "dependencies": {
     "react": "^18",
